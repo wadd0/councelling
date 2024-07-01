@@ -5,215 +5,178 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Councelling</title>
+  <title>Counselling</title>
   <!-- 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/"> -->
 
+  <style>
+    .bg-counselling {
+      background: #3e6047;
+    }
 
+    .text-counselling {
+      color: #3e6047
+    }
+  </style>
 
   <!-- Bootstrap core CSS -->
   <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
 
 
   <!-- Custom styles for this template -->
 </head>
 
-<body>
+<body class="bg-dark">
 
-  <main>
+  <main class="container-md">
+
     <!-- <h1 class="visually-hidden">Heroes examples</h1> -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-0">
+    <nav class="navbar navbar-expand-md navbar-dark mb-4 bg-counselling">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Making Space Leeds</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">
+          Making Space Leeds
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_collapse"
+          aria-controls="navbar_collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="navbar_collapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#individuals">For Individuals</a>
+              <a class="nav-link" aria-current="page" href="#about">
+                About
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#organisations">For Organisations</a>
+              <a class="nav-link" aria-current="page" href="#counselling">
+                Counselling
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" aria-current="page" href="#">
+                Coaching
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                Sessions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#fees">
+                Fees
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="bg-dark text-secondary px-4 py-5 text-center" id="about">
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">I'm Hillary and I'm a counsellor based in Leeds and offer online and in
-          person appointments.</p>
-        <p class="fs-5 mb-4">
-          I am an integrative Counsellor which means I am trained in a range of theories and
-          approaches which I draw on to tailor the way I work to meet your individual needs.
-          No matter what has led you to consider counselling, I'm here to work with you to
-          explore your thoughts and feelings.
-        </p>
-        <img src="./assets/images/profile.png" width="75%" class="rounded mx-auto d-block" alt="...">
-      </div>
-
-      <div class="carousel slide carousel-fade mt-5" id="carouselExampleIndicators" data-bs-ride="carousel">
-        <div class="carousel-inner w-75 mx-auto" style="min-height: 300px;">
-          <h1 class="display-5 fw-bold">"</h1>
-          <div class="carousel-item active" data-bs-interval="10000">
-            <p>I was very thankful to my therapist, Hillary. I felt her openness and non-judgemental stance
-              allowed me to be vulnerable and explore emotions that would have been very difficult to
-              access independently. I felt I was able to connect with my mum more deeply following the
-              sessions and they were of such great help
-            </p>
-          </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <p>I would wholeheartedly recommend Hillary. She provided a safe environment to share, and helped
-              guide me to set specific goals to lead me to action. I have been surprised at the amount of
-              change I have seen in myself in a relatively short time and have been left with tools I can
-              use for life.
-            </p>
-          </div>
-          <div class="carousel-item" data-bs-interval="10000">
-            <p>Hillary's coaching was incredibly helpful. I very quickly felt safe and so was able to open
-              up and really explore challenges I was facing. She was brilliant at helping me to see situations
-              clearly and work towards solutions that felt right to me.
-            </p>
-          </div>
+    <div class="container-fluid text-white bg-counselling mb-4" id="about">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 col-lg-6 p-5">
+          <h1 class="display-5 fw-bold">
+            About me
+          </h1>
+          <p class="lead mb-4">
+            Welcome, I’m Hillary and I’m a counsellor and coach based
+            in Leeds. I offer both online and in-person appointments.
+          </p>
         </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+        <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0 m-0 p-0">
+          <img src="./assets/images/profile.png" class="img-fluid" alt="Responsive Image">
         </div>
-
       </div>
     </div>
 
-    <div class="px-4 py-5 my-5 text-center">
-      <h1 class="display-5 fw-bold">Qualifications</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          List experience and qualifications. Talk about coaching...
-        </p>
-        <img src="./assets/images/bacp_logo_400244.png" width="50%" class="mx-auto d-block" alt="...">
-      </div>
-    </div>
-
-    <div class="px-4 py-5 my-5 text-center" id="individuals">
-      <h1 class="display-5 fw-bold">For individuals</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Our sessions are designed to help you achieve the outcomes you desire from
-          counselling. I offer a safe, non-judgmental and confidential space where we can
-          work at a pace comfortable for you. This may involve delving into current and past
-          issues and unravelling the complexities of your present relationships and
-          experiences.
-        </p>
-        <p class="lead mb-4">
-          If you're looking for understanding, support, and a pathway forward, I'm here to
-          support you on your journey.
-        </p>
-        <p class="lead mb-4">
-          I have experience working with anxiety and low mood/depression. My speciality is
-          being able to sit with clients in the emotional pain they are experiencing and be
-          alongside them whilst making sense of it together. I draw upon a range of
-          techniques and methods to do this and always work at the pace the client feels
-          most comfortable with. I have a strong drive to help clients work towards self-
-          understanding, self-compassion and empowerment.
-        </p>
-      </div>
-    </div>
-
-    <div class="bg-dark text-secondary px-4 py-5 text-center" id="organisations">
-      <div class="py-5">
-        <h1 class="display-5 fw-bold text-white">For organisations</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="fs-5 mb-4">I have worked in the third sector or Voluntary and Communities sector for 20
-            years. During this time I have developed community projects, volunteered,
-            managed and delivered city-wide projects and been a trustee.
+    <div class="container-fluid bg-light mb-4 text-counselling" id="counselling">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 col-lg-6 p-5">
+          <h1 class="display-5 fw-bold">
+            Counselling
+          </h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 mb-4 mb-md-0 p-5 text-white bg-counselling">
+          <p class="lead mb-4">
+            I am an integrative Counsellor which means I am
+            trained in a range of theories and approaches
+            which I draw on to tailor the way I work to meet your
+            individual needs. No matter what has led you to
+            consider counselling, I'm here to work with you to explore
+            your thoughts and feelings.
           </p>
-          <p class="fs-5 mb-4">
-            I am very aware of rising costs and short-term contracts as well as increased
-            complexity of work have on mental health and motivation. I am keen to work with
-            third sector organisations by offering tailored support for their staff during these
-            incredibly challenging times.
-          </p>
-          <p class="fs-5 mb-4">
-            As a qualified Counsellor and Coach, my approach involves working on a one-to-one basis
-            with individuals who require support. I focus on the individual and their
-            experience, taking into account the unique interplay between work and home life.
-          </p>
-          <p class="fs-5 mb-4">
-            My approach is friendly, supportive and collaborative. By integrating Counselling
-            and Coaching I work in both a person-centred and solution-focused way to help
-            the client work through issues such as:
-          </p>
-          This could be a table...
-          <ul class="list-unstyled">
-            <li>Bereavement</li>
-            <li>Stress</li>
-            <li>Depression</li>
-            <li>Work-life balance</li>
-            <li>Anxiety</li>
-            <li>Confidence</li>
-            <li>Returning to work</li>
-            <li>Compassion fatigue</li>
-          </ul>
-          <p class="fs-5 mb-4">
-            Please <a href="#contact">contact</a> me if you’d like to find out more about how I could work with your
-            organisation.
+          <hr class="m-3">
+          <p class="lead mb-4">
+            Sessions are designed to help you achieve the
+            outcomes you desire from counselling. I offer a
+            safe, non-judgmental and confidential space
+            where we can work at a pace comfortable for
+            you. This may involve delving into current and
+            past issues and unravelling the complexities of
+            your present relationships and experiences.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="px-4 py-5 my-5 text-center" id="contact">
-      <h1 class="display-5 fw-bold">Contact</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
-            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"
-            class="me-2" viewBox="0 0 24 24">
-            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-            <circle cx="12" cy="13" r="4" />
-          </svg>
-          It can feel scary deciding that you'd like to speak to a counsellor. Whether you're
-          looking for someone to off-load to or longer-term therapy, I can help.
+    <div class="container-fluid text-white text-center align-middle bg-counselling mb-4" id="fees">
+      <span class="align-middle">
+        <h1 class="display-5 fw-bold">
+          Fees and Costs
+        </h1>
+        <hr>
+        <p class="lead mb-4">
+          Each session is 50 minutes long and costs £50.
         </p>
         <p class="lead mb-4">
-          You can me for a free 20-minute introductory session.
+          Sessions can be arranged weekly or fortnightly.
+          Payment by bank transfer is preferred.
         </p>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-dark">Follow on Twitter</a></li>
-          <li><a href="#" class="text-dark">Like on Facebook</a></li>
-          <li><a href="#" class="text-dark">Email me</a></li>
-        </ul>
-      </div>
+      </span>
     </div>
 
-    <footer class="mt-auto">
-      <p>Footer info...by...</p>
-    </footer>
+
+    <div class="container-fluid text-counselling bg-light mb-4" id="contact">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-7 col-lg-7 p-5">
+          <h1 class="display-5 fw-bold">
+            Contact
+          </h1>
+          <hr>
+          <p class="lead mb-4">
+            It can feel scary deciding that you’d like to speak to a
+            counsellor. Whether you’re looking for someone to off-load
+            to or longer-term therapy, I can help.
+          </p>
+          <p class="lead mb-4">
+            If you're looking for understanding, support, and a pathway
+            forward, I'm here to support you on your journey.
+          </p>
+          <p class="lead mb-4">
+            <b>
+              Email:
+            </b>
+            <a href="mailto:therapeuticcoachleeds@gmail.com">
+              therapeuticcoachleeds@gmail.com
+            </a>
+          </p>
+          <p class="lead mb-4">
+            <b>
+              Phone:
+            </b>
+            07584 113756
+          </p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-5 mb-4 mb-md-0 m-0 p-0">
+          <img src="./assets/images/contact.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
 
   </main>
 
