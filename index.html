@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <title>Counselling</title>
-  <!-- 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/"> -->
 
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
   <style>
     .bg-counselling {
       background: #3e6047;
@@ -20,16 +22,11 @@
     }
   </style>
 
-  <!-- Bootstrap core CSS -->
-  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
-  <!-- Custom styles for this template -->
 </head>
 
 <body class="bg-light">
 
-  <main class="container-md">
+  <main class="container-md p-0">
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-md navbar-dark bg-counselling">
@@ -54,12 +51,12 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">
-                Coaching
+              <a class="nav-link" aria-current="page" href="#coaching">
+                Therapeutic Coaching
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">
+              <a class="nav-link" aria-current="page" href="#sessions">
                 Sessions
               </a>
             </li>
@@ -102,7 +99,7 @@
             navigating personal change and work related stress.
           </p>
           <a class=" text-counselling" href="https://www.bacp.co.uk/therapists/400244/hillary-wadsworth/leeds-ls7">
-            <img src="./assets/images/bacp_logo_400244.png" class="img-fluid mt-3" style="max-height: 100px">
+            <img src="./assets/images/bacp-logo-400244.png" class="img-fluid mt-3" style="max-height: 100px">
           </a>
         </div>
         <div class="col-12 col-md-6 col-lg-6 pt-0 p-3">
@@ -135,21 +132,70 @@
             towards self-understanding, self-compassion and empowerment.
           </p>
         </div>
+        <div class="col-12 col-md-6 col-lg-6 p-3">
+          <img src="./assets/images/istockphoto-1372579004-1024x1024.jpg" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        test
+      </div>
+    </div>
+
+    <!-- COACHING -->
+    <div class="container-fluid text-counselling" id="coaching">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 col-lg-6 p-md-5 p-3">
+          <h1 class="display-5 fw-bold">
+            Therapeutic Coaching
+          </h1>
+          <hr>
+          <p class="lead mb-4">
+            As a qualified Counsellor and Coach, I can combine the two approaches of Coaching
+            and Counselling and work with the whole person. This comprehensive and tailored
+            approach addresses the diverse needs of individuals, promoting personal and
+            professional development along with emotional well-being.
+          </p>
+          <p class="lead mb-4">
+            I work on a one-to-one basis with individuals who require
+            support, focussing on the individual and their experience, considering the unique
+            interplay between work and home life.
+          </p>
+          <p class="lead mb-4">
+            By integrating Counselling and
+            Coaching I work in both a person-centred and solution-focused way to help the client work
+            through issues such as:
+          </p>
+          <ul class="lead">
+            <li>Bereavement</li>
+            <li>Stress</li>
+            <li>Depression</li>
+            <li>Work-life balance</li>
+            <li>Anxiety</li>
+            <li>Confidence</li>
+            <li>Returning to work</li>
+            <li>Compassion fatigue</li>
+          </ul>
+        </div>
         <div class="col-12 col-md-6 col-lg-6 p-0">
           <img src="./assets/images/counselling.png" class="img-fluid">
         </div>
       </div>
     </div>
 
-    <div class="container-fluid bg-white text-counselling mb-4">
+    <!-- SESSSIONS -->
+    <div class="container-fluid bg-counselling text-white" id="sessions">
+      <h1 class="display-5 fw-bold p-3">
+        Sessions
+      </h1>
+      <hr>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6 p-md-5 p-3">
-          <img src="https://via.placeholder.com/1000" class="img-fluid mb-4">
-          <h1 class="display-6 fw-bold">
+          <img src="./assets/images/istockphoto-1225614709-1024x1024.jpg" class="img-fluid">
+          <h1 class="display-6 fw-bold mt-4">
             Free Consultation
           </h1>
           <p class="lead">
-            I offer a free 20 min first session on-line or by telephone.
+            I offer a free 20 minute consultation on-line or by telephone.
             This is an opportunity to talk about why you are thinking about
             therapy, your hopes and what you want to achieve from
             therapy, to ask questions and for you to get of sense of
@@ -158,12 +204,12 @@
           </p>
         </div>
         <div class="col-12 col-md-6 col-lg-6 p-md-5 p-3">
-          <img src="https://via.placeholder.com/1000" class="img-fluid mb-4">
-          <h1 class="display-6 fw-bold">
+          <img src="./assets/images/how-are-you-really.png" class="img-fluid">
+          <h1 class="display-6 fw-bold mt-4">
             First Session
           </h1>
           <p class="lead">
-            All potential clients will be offered an initial clinical assessment,
+            All clients will be offered an initial clinical assessment,
             I will need some personal information and we will talk about
             your wellbeing and what has brought you to therapy. You will
             have the opportunity to ask questions and we can agree
@@ -174,12 +220,9 @@
       </div>
     </div>
 
-
-    <!-- COACHING -->
-
-
     <!-- FEES -->
-    <div class="container-fluid text-white text-center align-middle bg-counselling mb-4" id="fees">
+    <br>
+    <div class="container-fluid text-white text-center align-middle bg-counselling" id="fees">
       <span class="align-middle">
         <h1 class="display-5 fw-bold">
           Fees
@@ -196,9 +239,9 @@
     </div>
 
     <!-- CONTACT -->
-    <div class="container-fluid text-counselling bg-white mb-4" id="contact">
+    <div class="container-fluid text-counselling bg-white" id="contact">
       <div class="row align-items-center">
-        <div class="col-12 col-md-7 col-lg-7 p-md-5 p-3">
+        <div class="col-12 col-md-5 col-lg-5 p-md-5 p-3">
           <h1 class="display-5 fw-bold">
             Contact
           </h1>
@@ -230,8 +273,8 @@
             Via BACP???
           </p>
         </div>
-        <div class="col-12 col-md-5 col-lg-5 mb-4 mb-md-0 m-0 p-0">
-          <img src="./assets/images/contact.png" class="img-fluid">
+        <div class="col-12 col-md-7 col-lg-7 mb-md-0 m-0 p-0">
+          <img src="./assets/images/istockphoto-1001533804-1024x1024.jpg" class="img-fluid">
         </div>
       </div>
     </div>
